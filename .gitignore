@@ -1,0 +1,16 @@
+# Environment
+.env
+
+# Python virtual environment
+.venv/
+
+# Vector database storage
+storage/
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
