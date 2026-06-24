@@ -9,7 +9,6 @@ python -m pip install -r requirements.txt
 
 echo ""
 echo "Setup complete. Next steps:"
-echo "1. Put your API keys in .env or in ../.env"
+echo "1. Copy .env.example to .env and keep real API keys local"
 echo "2. Double-click update_knowledge_base.command"
 echo "3. Double-click start_demo.command"
-

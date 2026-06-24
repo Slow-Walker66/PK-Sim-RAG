@@ -1,16 +1,32 @@
-# Environment
+# Secrets and local configuration
 .env
+.env.*
+!.env.example
+!**/.env.example
+.streamlit/secrets.toml
 
-# Python virtual environment
+# Python environments
 .venv/
+venv/
+env/
 
-# Vector database storage
+# Local model, cache, and vector database files
 storage/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local assistant/workspace files
+.claude/
+.codex/
+.agents/
 
 # macOS
 .DS_Store
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
